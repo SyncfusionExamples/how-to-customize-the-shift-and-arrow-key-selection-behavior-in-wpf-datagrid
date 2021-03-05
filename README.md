@@ -1,9 +1,10 @@
 # How to customize the shift and arrow key selection behavior in WPF DataGrid (SfDataGrid)?
 
 ## About the sample
-This example illustrates how to customize the shift and arrow key selection behavior in WPF DataGrid (SfDataGrid)?
 
-By default, text is selected when press the Shift Left or Shift Right key in editor control of [SfDataGrid](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SfDataGrid.html). You can move the current cell in SfDataGrid when pressing Shift Left or Shift Right key by customized the PreviewKeyDown event in corresponding column renderer. For example [GridTextBoxColumn](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridTextColumn.html) customizing by using the [GridCellTextBoxRenderer](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.Cells.GridCellTextBoxRenderer.html). 
+This example illustrates how to customize the shift and arrow key selection behavior in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid)?
+
+The text is selected when press the Shift Left or Shift Right key in editor control of [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid). You can move the current cell in SfDataGrid when pressing Shift Left or Shift Right key by customized the PreviewKeyDown event in corresponding column renderer. For example [GridTextBoxColumn](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridTextColumn.html) customizing by using the [GridCellTextBoxRenderer](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.Cells.GridCellTextBoxRenderer.html). 
 
 ```C#
 this.sfdatagrid.CellRenderers.Remove("TextBox");
