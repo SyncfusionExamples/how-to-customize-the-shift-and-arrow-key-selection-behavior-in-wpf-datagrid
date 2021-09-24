@@ -57,6 +57,8 @@ public class GridCellTextBoxRendererExt : GridCellTextBoxRenderer
 
 ![Shift and arrow key customized selection behavior in SfDataGrid](ShiftKeySelection.gif)
 
+KB article - [How to customize the shift and arrow key selection behavior in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/11877/how-to-customize-the-shift-and-arrow-key-selection-behavior-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
 
